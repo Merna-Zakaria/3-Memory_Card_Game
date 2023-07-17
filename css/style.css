@@ -3,11 +3,14 @@ body {
   padding: 0;
   height: 100%;
 }
-.all {
+html {
   background-color: rgba(255, 222, 14, 0.54);
-  width: 100%;
-  height: auto;
+  /* width: 100%;
+  height: auto; */
   padding: 35px 0px;
+}
+.all{
+  margin: 0 15px;
 }
 .background {
   width: 100%;
@@ -17,28 +20,34 @@ body {
 }
 .style_btn,
 .style_time {
-  padding: 30px;
+  padding: 20px;
+  width: 10%;
 }
 .style_time {
   color: rgb(0, 0, 0);
-  font-size: 30px;
+  font-size: 20px;
 }
 #start_btn,
 #resume_btn,
 #pause_btn {
   height: 80px;
-  width: 200px;
+  width: 100%;
   background-color: #263a45;
-  font-size: 30px;
+  font-size: 15px;
   margin: 10px;
   color: white;
+  font-weight: bold;
 }
 .container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 20px 20px;
+  display: flex;
+  gap: 20px 20px;
   border: 3px solid #263a45;
   padding: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
 }
 #gametime {
   color: #263a45;
@@ -52,9 +61,11 @@ body {
 }
 .card {
   position: relative;
-  width: 160px;
+  /* width: 160px;
   height: 160px;
-  margin: 0 auto;
+  margin: 0 auto; */
+  width: 22.3%;
+  height: 160px;
 }
 
 .back_card {

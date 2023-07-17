@@ -93,7 +93,7 @@ function add() {
     (min ? (min > 9 ? min : "0" + min) : "00") +
     ":" +
     (sec > 9 ? sec : "0" + sec);
-  gameTime.innerHTML = "Time:" + timer;
+  gameTime.innerHTML =timer;
 }
 
 function onStart() {
